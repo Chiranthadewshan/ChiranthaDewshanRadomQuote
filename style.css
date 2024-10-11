@@ -1,30 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
+    height: 100vh;
     width: 100vw;
     background-image: url("https://picsum.photos/1920/1080");
     background-size: cover;
-    font-family: Arial,sans-serif;
-    
+    font-family: Arial, sans-serif; /* Add a closing brace here */
+}
 
-h1{
+h1 {
     font-size: 46px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.card{
+
+.card {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.466);
     padding: 20px;
     border-radius: 10px;
 }
-.quote{
+
+.quote {
     font-size: 21px;
     padding: 20px;
     background-color: #fff;
@@ -32,17 +35,21 @@ h1{
     margin: 20px 5px;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
 }
-.button{
+
+.button {
     background-color: rgba(45, 95, 203, 0.568);
     font-size: 20px;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    padding:10px 20px ;
+    padding: 10px 20px;
     transition: background-color 0.3s;
     font-weight: bold;
 }
-.button:hover{
+
+.button:hover {
     background-color: rgba(0, 255, 255, 0.486);
 }
+
+   
